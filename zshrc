@@ -64,4 +64,4 @@ fi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # opencode
-export PATH=/home/hkaku/.opencode/bin:$PATH
+export PATH=$HOME/.opencode/bin:$PATH
