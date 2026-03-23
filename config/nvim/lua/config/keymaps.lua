@@ -33,7 +33,7 @@ vim.keymap.set("n", "<leader>fC", function()
     search_dirs = {
       "~/.dotfiles",
       "~/.config/nvim",
-      "/mnt/c/Users/hkaku/.vscode/extension/sbzr.chrome.extension/chrome-extension/sbzr.yaml", -- 甚至可以精确到具体文件
+      -- "/mnt/c/Users/hkaku/.vscode/extension/sbzr.chrome.extension/chrome-extension/sbzr.yaml", -- 甚至可以精确到具体文件
     },
   })
 end, { desc = "打开常用收藏" })
